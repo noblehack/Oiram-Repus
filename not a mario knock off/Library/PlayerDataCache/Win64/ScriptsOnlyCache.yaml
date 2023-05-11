@@ -9,10 +9,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -595,7 +593,7 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
-      Hash: 8596d3a489b6d84d746a2a9c3d9f9405
+      Hash: 9876d23da6709b420e876b9f439ee13b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Animations
@@ -866,4 +864,5 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/not a mario knock off/OiramBuild/not a mario knock off.exe
+  playerPath: C:/Users/Austin hackenberg/Documents/GitHub/Oiram-Repus/not a mario
+    knock off/OiramBuild/not a mario knock off.exe
