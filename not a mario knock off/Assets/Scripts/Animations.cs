@@ -10,6 +10,7 @@ public class Animations : MonoBehaviour
     public Movement movementScript;
     public bool canGroundPound;
     public bool inGroundPound ;
+    public bool canCapBounce = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -50,6 +51,7 @@ public class Animations : MonoBehaviour
         }
             if (movementScript.grounded){
                     canGroundPound = true;
+                    canCapBounce = true;
             }
          if (!movementScript.grounded){
             if (Input.GetKeyDown(KeyCode.LeftShift) && canGroundPound){
@@ -74,24 +76,20 @@ public class Animations : MonoBehaviour
         
     }
     public IEnumerator airJump(){
-             for (int i = 0; i<50; i++){
+             for (int i = 0; i<25; i++){
                 yield return new WaitForSeconds(.01f);
             Oiram.velocity = new Vector3(Oiram.velocity.x,0,Oiram.velocity.z);
              }
 
     }
     public IEnumerator hover(){
-        for (int i = 0; i<50; i++){
+        for (int i = 0; i<25; i++){
             yield return new WaitForSeconds(.01f);
             Oiram.velocity = new Vector3(0,0,0);
         }
         inGroundPound = false;
     }
-       private void OnTriggerEnter(Collider other) {
-        if (other.gameObject.name == "Hat"){
-           StopCoroutine("hover");
-        }
-    }
+      
     //
 }
  

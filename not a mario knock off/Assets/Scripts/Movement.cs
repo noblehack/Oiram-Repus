@@ -130,9 +130,12 @@ public class Movement : MonoBehaviour
     }
 
      private void OnTriggerEnter(Collider other) {
-        if (other.gameObject.name == "Hat" && !hatOnHead){
+        if (other.gameObject.name == "Hat" && !hatOnHead && animationScript.canCapBounce){
             animationScript.StopCoroutine("hover");
             animationScript.StopCoroutine("airJump");
+         animationScript.canGroundPound = true;
+             animationScript.canCapBounce = false;
+             animationScript.StopCoroutine("hover");
             Oiram.velocity = new Vector3(0, 0, 0);
             Oiram.AddForce(transform.up*500);
             Debug.Log("Bounce");
