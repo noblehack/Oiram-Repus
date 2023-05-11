@@ -1,0 +1,452 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1683750424391555, "dur":7026, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683750424398586, "dur":47, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1683750424398651, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1683750424398668, "dur":638, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1683750424399377, "dur":52765, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683750424452142, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683750429662755, "dur":342, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683750429663097, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683750429663120, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683750429663124, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683750429663133, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683750429663136, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683750429663147, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683750429663149, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683750429663158, "dur":17, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683750429663175, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683750429663182, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683750429663184, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683750429663193, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683750429663195, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683750429663202, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683750429663205, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683750429663218, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683750429663282, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683750429663328, "dur":25621, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1683750424400014, "dur":52177, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683750424452194, "dur":4795, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683750424457005, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683750424457036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683750424626234, "dur":77609, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683750424703868, "dur":37460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683750424741333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683750424835477, "dur":140189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683750424975674, "dur":8549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1683750424984227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683750425012039, "dur":46080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1683750425058239, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1683750425058435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683750425058444, "dur":102585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1683750425161148, "dur":43688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off.exe" }}
+,{ "pid":12345, "tid":1, "ts":1683750425204841, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683750425204849, "dur":942528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off.exe" }}
+,{ "pid":12345, "tid":1, "ts":1683750426147420, "dur":149921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683750426297348, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683750426298207, "dur":92107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683750426390357, "dur":115643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683750426506006, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683750426506016, "dur":1408576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683750427914859, "dur":117737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683750428032601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683750428032608, "dur":335333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683750428367976, "dur":171085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683750428539066, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683750428539073, "dur":128820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683750428673466, "dur":49695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683750428723166, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683750428723174, "dur":46814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683750428770042, "dur":25548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683750428795595, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683750428795603, "dur":47285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683750428842931, "dur":179265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683750429028567, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683750429028577, "dur":118870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683750429147502, "dur":64237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683750429215017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683750429215023, "dur":66164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683750429281232, "dur":32783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683750429314021, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683750429314031, "dur":36142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683750429350207, "dur":31423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683750429389484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683750429389492, "dur":59537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683750429449113, "dur":39185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683750429488305, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683750429488316, "dur":70961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683750429559335, "dur":7624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1683750429566963, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683750429566969, "dur":83636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1683750429650634, "dur":12208, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683750424400418, "dur":51973, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683750424452392, "dur":4641, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683750424457034, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1683750424457385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683750424718668, "dur":145524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1683750424864306, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1683750424864454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683750424864462, "dur":1280076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1683750426144629, "dur":372173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683750426516809, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683750426516818, "dur":1649113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683750428166153, "dur":310791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683750428487017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683750428487030, "dur":127818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683750428614901, "dur":24010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683750428638918, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683750428638928, "dur":60735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683750428711035, "dur":40593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683750428764380, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683750428764392, "dur":45662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683750428810104, "dur":27580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683750428838530, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683750428838542, "dur":23701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683750428862285, "dur":53207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683750428915499, "dur":19, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683750428915527, "dur":39571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683750428955131, "dur":31168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683750428986306, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683750428986316, "dur":28747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683750429015104, "dur":24042, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683750429039152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683750429039162, "dur":83840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683750429123057, "dur":51445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683750429174509, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683750429174519, "dur":69459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683750429244071, "dur":124934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683750429369012, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683750429369022, "dur":52101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683750429424431, "dur":156693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683750429592069, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683750429592079, "dur":51793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683750429643898, "dur":18837, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683750424400479, "dur":51992, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683750424452471, "dur":4520, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683750424457005, "dur":29345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1683750424486354, "dur":19, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683750424688837, "dur":149373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1683750424838273, "dur":10669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1683750424848946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683750424854186, "dur":173196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1683750425027535, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1683750425027729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683750425027738, "dur":74428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1683750425102296, "dur":88532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683750425190847, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683750425190873, "dur":956498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683750426147476, "dur":99385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683750426246868, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683750426282664, "dur":86393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683750426369094, "dur":123531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683750426492632, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683750426492642, "dur":1421933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683750427914774, "dur":157462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683750428072241, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683750428072248, "dur":295684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683750428367965, "dur":50266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683750428418237, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683750428418248, "dur":119120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683750428563440, "dur":69550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683750428632995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683750428633018, "dur":66653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683750428711037, "dur":24865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683750428735909, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683750428735953, "dur":45444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683750428798366, "dur":83402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683750428881775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683750428881785, "dur":30541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683750428912368, "dur":64777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683750428977152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683750428977162, "dur":37084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683750429014278, "dur":35374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683750429049661, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683750429049669, "dur":87314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683750429137031, "dur":72381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683750429209436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683750429215014, "dur":62787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683750429277847, "dur":26977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683750429304830, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683750429304841, "dur":40448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683750429345333, "dur":30010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683750429375350, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683750429389465, "dur":59581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683750429449123, "dur":48629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683750429497774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683750429497780, "dur":112422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683750429616482, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1683750429616584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683750429616590, "dur":46093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1683750429662708, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1683750429662710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683750424400247, "dur":52017, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683750424452264, "dur":4739, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683750424457005, "dur":13053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1683750424470062, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683750424686566, "dur":150995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1683750424837880, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1683750424838077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683750424838201, "dur":70326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1683750424908651, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1683750424908782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683750425025656, "dur":45481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1683750425071287, "dur":5928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683750425077222, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683750425102468, "dur":354160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683750425456816, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1683750425457036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683750426134585, "dur":89389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1683750426224104, "dur":210692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683750426434803, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683750426434813, "dur":1232438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683750427667320, "dur":38047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683750427705370, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683750427705376, "dur":316316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683750428021740, "dur":94656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683750428116400, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683750428149922, "dur":228269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683750428378252, "dur":116467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683750428494726, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683750428494756, "dur":138160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683750428632961, "dur":33149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683750428666116, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683750428666126, "dur":61079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683750428727244, "dur":151012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683750428878262, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683750428878272, "dur":30225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683750428908540, "dur":145042, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683750429053588, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683750429053599, "dur":90971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683750429144654, "dur":37180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683750429181840, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683750429181851, "dur":62091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683750429244040, "dur":47632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683750429291821, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683750429291831, "dur":52507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683750429344394, "dur":151473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683750429495874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683750429495881, "dur":114296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683750429616470, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1683750429616572, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683750429616584, "dur":44866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1683750429661477, "dur":1398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683750424400361, "dur":51955, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683750424452316, "dur":4727, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683750424457044, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1683750424457298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683750424688844, "dur":1444062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1683750426133031, "dur":434379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683750426567413, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683750426926036, "dur":1281273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683750428207381, "dur":85658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683750428293044, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683750428293052, "dur":148312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683750428441411, "dur":94880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683750428536295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683750428536302, "dur":90660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683750428626991, "dur":58225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683750428685223, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683750428685234, "dur":61038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683750428746343, "dur":25774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683750428772124, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683750428772135, "dur":45273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683750428817457, "dur":30203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683750428847667, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683750428847696, "dur":19226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683750428866963, "dur":65310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683750428933024, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683750428933035, "dur":31672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683750428964748, "dur":50495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683750429015248, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683750429015258, "dur":48243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683750429082205, "dur":19513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683750429101723, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683750429101750, "dur":48091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683750429149895, "dur":38305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683750429188213, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683750429188223, "dur":55745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683750429244065, "dur":24439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683750429268511, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683750429268521, "dur":31910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683750429307488, "dur":29195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683750429336689, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683750429336696, "dur":25548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683750429362291, "dur":52062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683750429414358, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683750429414371, "dur":37941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683750429452357, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1683750429452401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683750429452446, "dur":51433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1683750429503919, "dur":20870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1683750429524800, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683750429524809, "dur":91781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1683750429624829, "dur":37924, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683750424400656, "dur":51881, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683750424452537, "dur":4456, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683750424457005, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1683750424457285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683750424833220, "dur":149613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1683750424982959, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1683750424983168, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683750425012029, "dur":59113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1683750425071303, "dur":27618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683750425098927, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683750425102503, "dur":1051999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683750426154600, "dur":274680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683750426429286, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683750426429296, "dur":1238046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683750427667393, "dur":163555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683750427830952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683750427830957, "dur":376337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683750428207359, "dur":54431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683750428261796, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683750428261806, "dur":134679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683750428396529, "dur":252119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683750428657621, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683750428657634, "dur":78776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683750428736460, "dur":35668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683750428772133, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683750428772141, "dur":45275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683750428817469, "dur":108215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683750428925690, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683750428933021, "dur":30845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683750428963908, "dur":58150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683750429028553, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683750429028564, "dur":81571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683750429122832, "dur":26534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683750429149371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683750429149378, "dur":11909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683750429161328, "dur":39607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683750429200942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683750429200952, "dur":74900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683750429275905, "dur":77457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683750429353369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683750429353378, "dur":36124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683750429390142, "dur":44244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683750429434392, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683750429434399, "dur":44649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683750429479132, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1683750429479314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683750429479321, "dur":52474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1683750429531848, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1683750429531895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683750429531900, "dur":110532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1683750429642507, "dur":20230, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683750424400779, "dur":51847, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683750424452627, "dur":4418, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683750424457045, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1683750424457387, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683750424835744, "dur":147110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1683750424982990, "dur":7716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1683750424990711, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683750425012046, "dur":90128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1683750425102302, "dur":9285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1683750425111592, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683750425111598, "dur":1021363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1683750426133059, "dur":293507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683750426426573, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683750426426583, "dur":1240662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683750427667309, "dur":37601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683750427704915, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683750427704923, "dur":403448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683750428165265, "dur":118178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683750428283450, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683750428283473, "dur":203563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683750428487161, "dur":49065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683750428536233, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683750428536243, "dur":89604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683750428625879, "dur":50543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683750428676428, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683750428676436, "dur":59979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683750428744043, "dur":31731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683750428775781, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683750428775791, "dur":54203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683750428830037, "dur":52008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683750428882050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683750428882058, "dur":36117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683750428926843, "dur":24110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683750428950958, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683750428950967, "dur":17116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683750428968127, "dur":28824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683750428996957, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683750428996967, "dur":31587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683750429028990, "dur":37544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683750429066538, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683750429066545, "dur":80909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683750429147520, "dur":51302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683750429198828, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683750429198838, "dur":61171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683750429260058, "dur":30884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683750429290949, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683750429290959, "dur":34958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683750429325966, "dur":26014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683750429351987, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683750429351999, "dur":17706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683750429369748, "dur":53059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683750429422814, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683750429422825, "dur":41208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683750429464083, "dur":1415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1683750429465505, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683750429465514, "dur":66274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1683750429531839, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1683750429531882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683750429531889, "dur":110594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1683750429642533, "dur":20308, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683750424401088, "dur":51611, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683750424452700, "dur":4334, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683750424457034, "dur":12670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1683750424469709, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683750424688767, "dur":148802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1683750424837875, "dur":10385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1683750424848266, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683750424854145, "dur":128832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1683750424983067, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1683750424983236, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683750425012029, "dur":1142225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1683750426154367, "dur":149591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683750426303965, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683750426303976, "dur":90209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683750426394229, "dur":128676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683750426522911, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683750426522918, "dur":1391668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683750427914796, "dur":42278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683750427957080, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683750427957089, "dur":250234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683750428207390, "dur":89029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683750428296424, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683750428296432, "dur":227892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683750428524379, "dur":31871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683750428556255, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683750428556263, "dur":111602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683750428673421, "dur":28957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683750428702383, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683750428702391, "dur":65490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683750428769730, "dur":26685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683750428796421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683750428796428, "dur":42104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683750428838683, "dur":65771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683750428904461, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683750428904475, "dur":40389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683750428944945, "dur":77616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683750429028598, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683750429028608, "dur":81498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683750429122831, "dur":26344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683750429149183, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683750429149194, "dur":14780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683750429164019, "dur":31734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683750429195759, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683750429195769, "dur":64224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683750429260132, "dur":34561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683750429294700, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683750429294710, "dur":49635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683750429344412, "dur":33140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683750429389472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683750429389479, "dur":59556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683750429449113, "dur":32899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683750429482028, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683750429482044, "dur":77223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683750429559328, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles OiramBuild/not a mario knock off_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1683750429559426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683750429559432, "dur":85635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"OiramBuild/not a mario knock off_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1683750429645104, "dur":17761, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683750429727262, "dur":139462, "ph":"X", "name": "ProfilerWriteOutput" }
+,
